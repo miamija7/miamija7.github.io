@@ -1,0 +1,58 @@
+/*  Document Setup  */
+html * {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    font-family: sans-serif, 'Roboto Mono','Space Mono';
+}
+
+/*  Navigation  */
+.navbar *{
+    background-color: black;
+}
+.navbar-burger {
+    color: white;
+}
+
+/*  Header  */
+header {
+    font-family: 'Roboto Mono','Space Mono', sans-serif;
+    text-align: center;
+    color: white;
+    padding: 5em 0;
+    background-color: black;
+}
+.quote {
+    margin: 0 auto;
+    width: 90%;
+    font-size: 0.75em;
+    line-height: 1.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.quote-source {
+    font-size: 0.5em;
+    margin: 1em;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width:768px) {
+    /*  Header  */
+    .quote {
+        font-size: 1.5em;
+        line-height: 1.5em;
+        width: 75%;
+    }
+    .quote-source {
+        font-size: 1em;
+    }
+    .quote span {
+        display: block;
+    }
+}
+
+
+
