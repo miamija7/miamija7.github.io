@@ -21,3 +21,22 @@ h1  {
     text-align: justify;
     line-height: 1.1em;
 }
+
+.columns:nth-of-type(2){
+    margin-top: 15vh;
+}
+
+
+
+@media screen and (max-width:768px) {
+    html {
+        margin: 0.5em;
+        border: 0.75em solid black;
+    }
+    h1  {
+        margin: 0;
+        font-size: 1.83em;
+        line-height: 1em;
+        letter-spacing: -2px;
+    }
+}
