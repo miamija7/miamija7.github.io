@@ -26,6 +26,14 @@ h1  {
     margin-top: 15vh;
 }
 
+.logo {
+    height: 10em;
+}
+
+.intro{
+    position: relative;
+    bottom: 7em;
+}
 
 
 @media screen and (max-width:768px) {
