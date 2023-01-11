@@ -20,11 +20,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // Colorful Name Display
 const flash = document.querySelector('.flash');
-const colors = ['darkseagreen', 'mediumpurple', 'orange', 'indianred', 'steelblue', 'wheat']
+const colors = ['darkseagreen', 'mediumpurple', 'orange', 'indianred', 'steelblue', 'wheat'];
+const typefaces = ['Courier New', 'Brush Script MT', 'Copperplate', 'Papyrus'];
 const strobe = setInterval(()=>{
     flash.style.color = colors[Math.floor(Math.random() * 6)];
     flash.style.fontSize = `${(Math.random() * 4) + 0.5}em`;
-}, 100)
+    flash.style.fontFamily = typefaces[Math.floor(Math.random() * 4)];
+}, 200)
 setTimeout(()=>{clearInterval(strobe)}, 9000 )
 
 // Solid Name Display
@@ -34,5 +36,5 @@ setTimeout(()=>{
 }, 1000)
 setTimeout(()=>{
     solid.style.opacity = '100%';
-}, 5000)
+}, 1000)
 

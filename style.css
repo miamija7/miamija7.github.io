@@ -1,91 +1,23 @@
-/*  Document Setup  */
-html * {
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    list-style: none;
+html {
+    margin: 0.5em;
+    border: 1em solid black;
 }
+
 body{
-    font-family: sans-serif, 'Roboto Mono','Space Mono';
+    font-family: 'Nunito Sans', sans-serif;
+    padding: 0;
+    color: black;
 }
 
-/*  Navigation  */
-.navbar *{
-    background-color: black;
-}
-.navbar-burger {
-    color: white;
-}
-
-/*  Header  */
-header {
-    font-family: 'Space Mono','Roboto Mono', sans-serif;
-    text-align: center;
-    height: 60vh;
-    color: wheat;
-    background-color: black;
-    font-size: 3em;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    line-height: 3.5em;
-}
-.flash  {
-    opacity: 100%;
-    transition: opacity 8s ease-in-out;
-}
-.solid  {
-    color: white;
-    position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;
-    text-align: center;
-    font-size: 1em;
-    opacity: 0;
-    transition: all 10s ease-in-out;
-    line-height: 0.6em;
-}
-.solid span {
-    font-size: 0.45em;
-}
-.quote {
-    color:white;
-    width: 80%;
-    font-size: 1em;
-    margin: 0 auto;
-    font-weight: bold;
-    text-align: center;
-    text-transform: uppercase;
-}
-.quote-source {
-    font-size: 1em;
-    text-align: center;
+h1  {
+    margin: 0;
+    font-size: 6em;
+    line-height: 1em;
+    letter-spacing: -5px;
 }
 
-/* Medium devices (tablets, 768px and up) */
-@media screen and (min-width:768px) {
-    /*  Header  */
-    .quote {
-        font-size: 1.65em;
-        line-height: 1.5em;
-        width: 75%;
-    }
-    .quote-source {
-        font-size: 1em;
-    }
-    .quote span {
-        display: block;
-    }
-    .solid {
-        font-size: 1.5em;
-        line-height: 0.7em;
-    }
-    .solid span {
-        font-size: 0.45em;
-    }
+.column {
+    padding: 2em;
+    text-align: justify;
+    line-height: 1.1em;
 }
-
-
-
